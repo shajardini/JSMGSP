@@ -22,10 +22,12 @@ var chuva = true; //booleanos - true - verdadeiro/ false - falso
 console.log(typeof chuva)
 
 var a
-console.log(typeof a)
+console.log(typeof a)//undefined- é quando não atribuído valor.
+
+//tipos de object
 
 var pessoa = {nome: 'Shay', email: 'shshs@gmail.com'}
-console.log(typeof pessoa)
+console.log(typeof pessoa)//objeto demarcado pela chaves
 
-var lista = [1, 2, 3]//tipo array
+var lista = [1, 2, 3]//Array (demarcado pelo colchetes)
 console.log(typeof lista)
