@@ -17,3 +17,15 @@ console.log(texto)
 
 texto = 'A Nadmila é uma aluna maravilhosa!'
 console.log(texto)
+
+var chuva = true; //booleanos - true - verdadeiro/ false - falso
+console.log(typeof chuva)
+
+var a
+console.log(typeof a)
+
+var pessoa = {nome: 'Shay', email: 'shshs@gmail.com'}
+console.log(typeof pessoa)
+
+var lista = [1, 2, 3]//tipo array
+console.log(typeof lista)
