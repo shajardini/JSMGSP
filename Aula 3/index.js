@@ -32,8 +32,25 @@
 // var lista = [1, 2, 3]//Array (demarcado pelo colchetes)
 // console.log(typeof lista)
 
-var nome = prompt('Digite seu nome?')
-var email = prompt('Insira seu email: ')
-//O email de __________ é ________
-alert('O email de ' +  nome + ' é ' + email+'.')
-alert(`O email de ${nome} é ${email}.`)
+// var nome = prompt('Digite seu nome?')
+// var email = prompt('Insira seu email: ')
+// //O email de __________ é ________
+// alert('O email de ' +  nome + ' é ' + email+'.')
+// alert(`O email de ${nome} é ${email}.`)
+
+
+// var n1 = Number(prompt('Digite um número'))
+// var n2 = Number(prompt('Digite mais um número'))
+
+// alert(n1+n2)
+
+var pessoaMaisVelha = prompt('Digite o nome da pessoa mais velha')
+var idadeMaisVelha = prompt('Digite a idade da pessoa mais velha')
+var pessoaMaisNova = prompt('Digite o nome da pessoa mais nova')
+var idadeMaisNova = prompt('Digite a idade da pessoa mais nova')
+
+var diferenca = idadeMaisVelha-idadeMaisNova
+
+alert(`A diferença de idade de ${pessoaMaisVelha} e ${pessoaMaisNova} é ${idadeMaisVelha-idadeMaisNova} anos.`)
+
+alert(`A diferença de idade de ${pessoaMaisVelha} e ${pessoaMaisNova} é ${diferenca} anos.`)
