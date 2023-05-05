@@ -20,3 +20,17 @@ let exponenciacao = n1 ** n2//100000
 // console.log(exponenciacao)
 
 console.log(`Soma: ${soma} \nSubtração: ${subtracao} \nDivisão: ${divisao} \nMultiplicação: ${multiplicacao} \nResto da divisão: ${resto} \nExponenciação: ${exponenciacao}`)
+
+//operadores de atribuição
+
+let n3 = 4
+
+//maneira + simplificada
+console.log(n3+=2)//n3=n3 + 2=6
+console.log('Novo valor n3= ' + n3)
+console.log(n3-=1)//n3=n3-1= 5
+console.log('Novo valor n3= ' + n3)
+console.log(n3*=2)//n3=n3*2 = 10
+console.log('Novo valor n3= ' + n3)
+console.log(n3/=2)//n3=n3/2=5
+// Algoritmo é uma sequência de passos. O N3 é atualizado a cada linha da sequência acima.
