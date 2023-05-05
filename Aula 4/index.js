@@ -33,4 +33,28 @@ console.log('Novo valor n3= ' + n3)
 console.log(n3*=2)//n3=n3*2 = 10
 console.log('Novo valor n3= ' + n3)
 console.log(n3/=2)//n3=n3/2=5
+console.log('Novo valor n3= ' + n3)
+console.log(n3**=2)//n3=n3**2=25
+console.log('Novo valor n3= ' + n3)
+console.log(n3%=2)//n3=n3%2=1
+console.log('Novo valor n3= ' + n3)
 // Algoritmo é uma sequência de passos. O N3 é atualizado a cada linha da sequência acima.
+
+//Operador de incremento
+let x = 6
+
+x++ // x + =1 ou x = x+1 = 7
+
+x--// X -=1 ou x = x-1 = 6
+
+//Operadores de comparação
+var a = 5
+var b = 7
+console.log(a>b)//true ou false = false
+console.log(a<b)//true
+console.log(a>=b)//false
+console.log(a<=b)//true
+console.log(a!=b)//true (diferente)
+console.log(5=='5')//true - caractere é igual dos lados
+console.log(5==='5')//false - tipo e caractere
+//number === string
