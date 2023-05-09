@@ -6,6 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        h1 {
+            color: red;
+        }
+
+        #msg{
+            color: white;
+        }
+
+        .pclasse{
+            color: blueviolet;
+        }
+    </style>
 </head>
 
 <body>
@@ -28,7 +41,14 @@
         //2. Por ID = getElementById()
 
         var espacodiv = window.document.getElementById('msg')
-        espacodiv.innerHTML='<strong>Olá pessoal! Estou selecionando por identificação!</strong>'
+        espacodiv.innerHTML = '<strong>Olá pessoal! Estou selecionando por identificação!</strong>'
+        espacodiv.style.backgroundColor = 'red'
+
+        //3. Por Class getElementsByClassName()[]
+
+        var espacoPorClasse = window.document.getElementsByClassName('pclasse')[0]
+        espacoPorClasse.innerHTML = '<h2>Selecionando por Classe!</h2>'
+
 
 
     </script>
