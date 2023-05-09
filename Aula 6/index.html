@@ -10,25 +10,26 @@
     <h1>Eventos</h1>
     <div>
         <label for="onMouseEnter">Entrada de mouse:</label>
-        <input type="text" id="onMouseEnter" onmouseenter="">
+        <input type="text" id="onMouseEnter" onmouseenter="console.log('Mouse entrou.')">
     </div>
+    <br>
 
     <div>
         <label for="onChange">Mudança de valor:</label>
-        <input type="text" id="onChange" onchange="">
+        <input type="text" id="onChange" onchange="console.log('Mudança de valor.')">
     </div>
 
     <div>
         <label for="onFocus">Entrada de foco:</label>
-        <input type="text" id="onFocus" onFocus="">
+        <input type="text" id="onFocus" onFocus="console.log('Foco.')">
     </div>
 
     <div>
-        <label for="onBlur">Mudança de valor:</label>
-        <input type="text" id="onBlur" onblur="">
+        <label for="onBlur">Saída de foco:</label>
+        <input type="text" id="onBlur" onblur="console.log('Saída de foco.')">
     </div>
 
-    <button onclick="">Clique aqui</button>
+    <button onclick="console.log('Clicado.')">Clique aqui</button>
 
 </body>
 </html>
