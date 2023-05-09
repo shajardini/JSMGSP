@@ -49,7 +49,17 @@
         var espacoPorClasse = window.document.getElementsByClassName('pclasse')[0]
         espacoPorClasse.innerHTML = '<h2>Selecionando por Classe!</h2>'
 
+        //4. Por Name getElementsByName()[]
 
+        var espacoName = window.document.getElementsByName('divname')[0]
+
+        espacoName.innerHTML='<h3>Selecionando por Name.</h3>'
+
+        //5. Por seletor css window.document.querySelector('')
+
+        var espacoSeletor = window.document.querySelector('#msg')
+        espacoSeletor.style.backgroundColor='yellow'
+        espacoSeletor.style.color='black'
 
     </script>
 </body>
