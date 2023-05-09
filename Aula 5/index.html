@@ -20,12 +20,17 @@
 
         //Seletores JavaScript
 
-        //1. Por tag (marca) - getElementsByTagName()[]
+        //1. Por tag (marca) - getElementsByTagName()[] - dentro do colchete passamos a posição desse elemento.
 
         var paragrafo1 = window.document.getElementsByTagName('p')[0]//a posição começa em 0
         paragrafo1.innerText = 'Selecionando por tag.'
 
-        
+        //2. Por ID = getElementById()
+
+        var espacodiv = window.document.getElementById('msg')
+        espacodiv.innerHTML='<strong>Olá pessoal! Estou selecionando por identificação!</strong>'
+
+
     </script>
 </body>
 
