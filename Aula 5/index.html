@@ -10,10 +10,22 @@
 
 <body>
     <h1>Aprendendo a utilizar o DOM</h1>
+    <p>Primeiro parágrafo.</p>
     <p class="pclasse">Segundo parágrafo.</p>
-    <p>Terceiro parágrafo</p>
     <div id="msg">Clique em mim!</div>
     <div name="divname">Utilizando name.</div>
+
+    <script>
+        // window.document.write('Olá Mundo!')
+
+        //Seletores JavaScript
+
+        //1. Por tag (marca) - getElementsByTagName()[]
+
+        var paragrafo1 = window.document.getElementsByTagName('p')[0]//a posição começa em 0
+        paragrafo1.innerText = 'Selecionando por tag.'
+
+    </script>
 </body>
 
 </html>
