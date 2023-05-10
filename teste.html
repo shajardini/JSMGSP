@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Criando novos elementos </h1>
+
+    <button onclick="addInput()">Adicionar Input</button>
+    <ul id="inputs">
+
+    </ul>
+
+
+    <script>
+        function addInput(){
+            const ul = document.getElementById('inputs')
+
+            const newLista = document.createElement('li')
+            newLista.className ='lista-item'
+            newLista.innerText='Novo input'
+
+            const novoInput = document.createElement('input')
+            novoInput.type = 'text'
+            novoInput.name = 'input'
+
+            newLista.appendChild(novoInput)
+            ul.appendChild(newLista)
+        }
+    </script>
+</body>
+</html>

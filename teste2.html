@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Praticando manipulação do DOM</h1>
+    <button onclick="addContato()">Novo Contato</button>
+    <button onclick="removeContato()">Remover Contato</button>
+
+    <section id="listadecontato"></section>
+
+    <script>
+        function addContato(){
+            const sessaoContato = document.getElementById('listadecontato')
+
+            const h3 = document.createElement('h3')
+            h3.innerText = 'Contato'
+
+            const ul = document.createElement('ul')
+
+            const nomeLi = document.createElement('li')
+            nomeLi.innerText='Nome: '
+            const nomeInput = document.createElement('input')
+            nomeInput.type = 'text'
+
+            nomeLi.appendChild(nomeInput)
+            ul.appendChild(nomeLi)
+            ul.appendChild(document.createElement('br'))
+            sessaoContato.append(h3, ul)
+            
+
+        }
+
+        function removeContato(){
+            const sessaoContato = document.getElementById('listadecontato')
+
+            const titulo = document.getElementsByTagName('h3')
+            const contato = document.getElementsByTagName('ul')
+
+            sessaoContato.removeChild(titulo[titulo.length-1])
+            sessaoContato.removeChild(contato[contato.length-1])
+        }
+    </script>
+</body>
+</html>
