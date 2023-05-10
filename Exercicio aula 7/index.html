@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exercício</h1>
+    Nome: <input type="text" id="inputNome">
+
+    <button onclick="mostrarNome()">Entrar</button>
+
+    <div id="resultado"></div>
+
+    <script>
+        function mostrarNome(){
+           var nome = document.getElementById('inputNome').value//luan
+
+           var area = document.getElementById('resultado')
+
+           area.innerText=`Bem vindo ${nome}!`
+        }
+    </script>
+    
+</body>
+</html>
