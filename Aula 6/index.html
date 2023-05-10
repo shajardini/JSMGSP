@@ -16,20 +16,20 @@
 
     <div>
         <label for="onChange">Mudança de valor:</label>
-        <input type="text" id="onChange" onchange="console.log('Mudança de valor.')">
+        <input type="text" id="onChange" onchange="mudancaValor()">
     </div>
 
     <div>
         <label for="onFocus">Entrada de foco:</label>
-        <input type="text" id="onFocus" onFocus="console.log('Foco.')">
+        <input type="text" id="onFocus" onfocus="eventoFoco()">
     </div>
 
     <div>
         <label for="onBlur">Saída de foco:</label>
-        <input type="text" id="onBlur" onblur="console.log('Saída de foco.')">
+        <input type="text" id="onBlur" onblur="saidaFoco()">
     </div>
 
-    <button onclick="console.log('Clicado.')">Clique aqui</button>
+    <button onclick="clique()">Clique aqui</button>
 
     <script src="index.js"></script>
 
