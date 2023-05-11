@@ -31,3 +31,27 @@ if(nota>6){
 }else{
     console.log('Reprovado')
 }
+
+//aprovado, reprovado, exame
+
+// //if(teste){
+
+// }else if(teste){
+
+// }else{
+
+// }
+
+var nota1=5
+//5  false
+if(nota1>7){
+    console.log('Aprovado')
+}else if(nota1>5){
+    console.log('Exame')
+}else{
+    console.log('Reprovado')
+}
+
+//
+
+
