@@ -17,19 +17,28 @@ function calcular() {
     //     break
     // }
 
-    switch(operacao){
-        case '+':
-            resultado = n1+n2
-            break
-        case '-':
-            resultado = n1-n2
-            break
-        case '/':
-            resultado = n1 / n2
-            break
-        case '*':
-            resultado = n1 * n2
-    }
+    // switch(operacao){
+    //     case '+':
+    //         resultado = n1+n2
+    //         break
+    //     case '-':
+    //         resultado = n1-n2
+    //         break
+    //     case '/':
+    //         resultado = n1 / n2
+    //         break
+    //     case '*':
+    //         resultado = n1 * n2
+    // }//+ - / *
 
+    if(operacao==='+'){
+        resultado = n1+n2
+    } else if(operacao==='-'){
+        resultado = n1-n2
+    }else if(operacao === '/'){
+        resultado = n1/n2
+    }else{
+        resultado = n1 * n2
+    }
     area.innerText = resultado.toFixed(2)
 }
