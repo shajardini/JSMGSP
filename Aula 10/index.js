@@ -31,5 +31,5 @@ function calcular() {
             resultado = n1 * n2
     }
 
-    
+    area.innerText = resultado.toFixed(2)
 }
