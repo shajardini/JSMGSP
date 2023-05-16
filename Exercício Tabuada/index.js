@@ -3,7 +3,7 @@ function tabuada(){
     let resultado = document.getElementById('area')
     
 
-    if(num.value.length == 0){
+    if(num.value.length == 0){//verifica o tamanho do que tem dentro do elemento num
         alert('Digite um número.')
     }else{
 
