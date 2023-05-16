@@ -21,3 +21,20 @@ console.log(nomes)
 console.log(nomes.length)//mostra o tamanho do array
 
 console.log(nomes.sort())//ajustar em ordem crescente
+
+//for(inici;condição;itera){}
+/*'Giovanna', 'Luan',
+'Pablo',    'Pedro',
+'Atena',    'Nadmila',
+'Lilyan',   'Mariana'
+*/
+
+
+                        //7<8
+for(let posicao=0;posicao<nomes.length;posicao++){
+    console.log(`A posição ${posicao} tem ${nomes[posicao]}`)
+}
+
+for(let cont in nomes){
+    console.log(nomes[cont])
+}
